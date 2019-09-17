@@ -28,7 +28,7 @@ public class JdbcUpdate {
 			preparedStatement = connection.prepareStatement("UPDATE login set status=?");
 			
 			preparedStatement.setString(1, "E");
-			System.out.println("Updated....");  
+			System.out.println("Updated..");  
 			
 			int rowsEffected = preparedStatement.executeUpdate();
 			
