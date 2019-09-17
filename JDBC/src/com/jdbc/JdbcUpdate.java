@@ -29,6 +29,7 @@ public class JdbcUpdate {
 			
 			preparedStatement.setString(1, "E");
 			System.out.println("Updates successfully");
+			System.out.println("sop");
 			int rowsEffected = preparedStatement.executeUpdate();
 			
 			if(rowsEffected > 0) {
