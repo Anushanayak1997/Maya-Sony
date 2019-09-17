@@ -28,8 +28,8 @@ public class JdbcUpdate {
 			preparedStatement = connection.prepareStatement("UPDATE login set status=?");
 			
 			preparedStatement.setString(1, "E");
-			System.out.println("Updates successfully");
-			System.out.println("sop");
+			System.out.println("Updates successfully...");
+			
 			int rowsEffected = preparedStatement.executeUpdate();
 			
 			if(rowsEffected > 0) {
