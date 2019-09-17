@@ -23,7 +23,7 @@ public class JdbcUpdate {
 			// Write SQL query
 			// Prepared Statement is used for DDL, DML
 			// createStatement is used for create, drop, delete
-			
+			 
 			// preparedStatement = connection.prepareStatement("UPDATE login set status='A'");
 			preparedStatement = connection.prepareStatement("UPDATE login set status=?");
 			
