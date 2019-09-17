@@ -29,7 +29,7 @@ public class JdbcUpdate {
 			
 			preparedStatement.setString(1, "E");
 
-			System.out.println("Updated..");  
+			System.out.println("Updated");  
 
 
 			
